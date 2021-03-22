@@ -183,3 +183,8 @@
 \a _lmgrCloseIconify("cdsLibManager" 1)
 \a nrSetCurrentWindow(cdsLibManager)
 \a nrSetCurrentWindow(cdsLibManager)
+\o MPS service: shutdown
+\o libManager is exiting.
+\a nrSetWindowVisibility(cdsLibManager "hide")
+\a exit(0)
+\a basicRenameForm->basicRenameFromEdit->value = "foo"
