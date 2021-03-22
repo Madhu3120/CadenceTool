@@ -1,0 +1,3 @@
+SOFTINCLUDE /home/ece_14/cds.lib
+DEFINE digital_abhijeet /home/ece_14/Desktop/01JST18EC001/digital_abhijeet
+DEFINE avTech /home/install/ASSURA41/tools.lnx86/assura/etc/avtech/avTech
