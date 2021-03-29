@@ -6,14 +6,14 @@ Copyright (c) Cadence Design Systems. All rights reserved.
 @(#)$CDS: assura_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on cad19 from /home/install/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Mon Mar 29 16:55:47 2021
+run on cad19 from /home/install/ASSURA41/tools.lnx86/assura/bin/64bit/assura on Mon Mar 29 16:53:58 2021
 
 
-Starting /home/install/ASSURA41//tools.lnx86/assura/bin/aveng /home/ece_14/Desktop/01jst18EC051/NAND.rsf -restart -cdslib /home/ece_14/Desktop/01jst18EC051/cds.lib
+Starting /home/install/ASSURA41//tools.lnx86/assura/bin/aveng /home/ece_14/Desktop/01jst18EC051/NOR.rsf -restart -cdslib /home/ece_14/Desktop/01jst18EC051/cds.lib
 @(#)$CDS: aveng_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on cad19 from /home/install/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Mon Mar 29 16:55:47 2021
+run on cad19 from /home/install/ASSURA41/tools.lnx86/assura/bin/64bit/aveng on Mon Mar 29 16:53:58 2021
 
 
 Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRuleSets
@@ -25,11 +25,11 @@ Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRu
 Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRuleSets
 
 Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRuleSets
- Summary Report: NAND.sum
- RSF           : /home/ece_14/Desktop/01jst18EC051/NAND.rsf
+ Summary Report: NOR.sum
+ RSF           : /home/ece_14/Desktop/01jst18EC051/NOR.rsf
  Library Name  : Digital_1234
  CDSLIB Path   : "/home/ece_14/Desktop/01jst18EC051/cds.lib"
- Cell Name     : NAND
+ Cell Name     : NOR
  View Name     : layout
  Rules File    : /home/install/FOUNDRY/analog/180nm/pv/assura/drc.rul
  Options       : -restart -cdslib /home/ece_14/Desktop/01jst18EC051/cds.lib 
@@ -53,11 +53,11 @@ Running in restart mode.
 
 
 Finished building the VDB. VDB build times for main process:
-cpu: 0.07  elap: 1  pf: 0  in: 0  out: 40  virt: 160M  phys: 813M
+cpu: 0.07  elap: 0  pf: 0  in: 0  out: 40  virt: 160M  phys: 807M
 
 Running the Task Processor, 1 cells, 1301 steps...
 
-Top Cell is 'NAND layout Digital_1234'
+Top Cell is 'NOR layout Digital_1234'
 
 Executing: Metal1 = geomOr(Metal1_d Metal1_f)
 
@@ -906,17 +906,17 @@ Executing: L18376 = geomAndNot(L30836 L93119)
 	   errorLayer(L18376 "13A3: N+SD to PW tap spacing must be <= 10.0 um")
 
 Finished running rules. Task processor time in main process:
-cpu: 0.07  elap: 0  pf: 0  in: 0  out: 288  virt: 191M  phys: 918M
+cpu: 0.08  elap: 0  pf: 0  in: 0  out: 288  virt: 187M  phys: 900M
 
 Started output post-processing ...
 
 Nothing to postprocess: No grid cells in the design
 
 Finished output post-processing
-cpu: 0.05  elap: 0  pf: 0  in: 0  out: 0  virt: 233M  phys: 1018M
+cpu: 0.05  elap: 0  pf: 0  in: 0  out: 0  virt: 233M  phys: 1010M
 
 Finished building the persistent database.
-cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6424  virt: 238M  phys: 1032M
+cpu: 0.01  elap: 1  pf: 0  in: 0  out: 6424  virt: 238M  phys: 1027M
 
 
 *****  aveng terminated normally  *****
@@ -924,7 +924,7 @@ cpu: 0.01  elap: 0  pf: 0  in: 0  out: 6424  virt: 238M  phys: 1032M
 
 Finished /home/install/ASSURA41//tools.lnx86/assura/bin/aveng
 
-Starting /home/install/ASSURA41//tools.lnx86/assura/bin/avrpt /home/ece_14/Desktop/01jst18EC051/NAND.rsf
+Starting /home/install/ASSURA41//tools.lnx86/assura/bin/avrpt /home/ece_14/Desktop/01jst18EC051/NOR.rsf
 
 Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRuleSets
 
@@ -934,10 +934,10 @@ Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRu
 @(#)$CDS: avrpt_64 version av4.1:Production:dfII6.1.7-64b:IC6.1.7-64b.500.12 05/03/2018 21:53 (sjfhw625) $
 sub-version 4.1_USR5_HF15, integ signature 2018-05-03-2129
 
-run on cad19 from /home/install/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Mon Mar 29 16:55:48 2021
+run on cad19 from /home/install/ASSURA41/tools.lnx86/assura/bin/64bit/avrpt on Mon Mar 29 16:53:59 2021
 
 
-   Creating Error Database 'NAND'...
+   Creating Error Database 'NOR'...
 
    Reading VDB ...
 --------------------------------------------------------------------------------
@@ -1195,13 +1195,13 @@ Total  errors:                                               0            0
 
    Finished creating Error Database ...
 
-   Writing Report into ./NAND.err ...
+   Writing Report into ./NOR.err ...
 
 avrpt cpu sec:    0.08  elapsed:     0  virtual:    93M
 
 Finished /home/install/ASSURA41//tools.lnx86/assura/bin/avrpt
 
-Starting /home/install/ASSURA41//tools.lnx86/assura/bin/avcallproc /home/ece_14/Desktop/01jst18EC051/NAND.rsf -restart -cdslib /home/ece_14/Desktop/01jst18EC051/cds.lib
+Starting /home/install/ASSURA41//tools.lnx86/assura/bin/avcallproc /home/ece_14/Desktop/01jst18EC051/NOR.rsf -restart -cdslib /home/ece_14/Desktop/01jst18EC051/cds.lib
 
 Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRuleSets
 
@@ -1212,7 +1212,7 @@ Loading tech rule set file : /home/install/FOUNDRY/analog/180nm/pv/assura/techRu
 Finished /home/install/ASSURA41//tools.lnx86/assura/bin/avcallproc
 
 
-Run ended: Mon Mar 29 16:55:49 2021
+Run ended: Mon Mar 29 16:53:59 2021
 
 *****  Assura terminated normally  *****
 
